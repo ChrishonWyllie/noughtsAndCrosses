@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66FF10851C78F5BA00CB254C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF10841C78F5BA00CB254C /* AppDelegate.swift */; };
+		66FF10871C78F5BA00CB254C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FF10861C78F5BA00CB254C /* ViewController.swift */; };
+		66FF108A1C78F5BA00CB254C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FF10881C78F5BA00CB254C /* Main.storyboard */; };
+		66FF108C1C78F5BA00CB254C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FF108B1C78F5BA00CB254C /* Assets.xcassets */; };
+		66FF108F1C78F5BA00CB254C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FF108D1C78F5BA00CB254C /* LaunchScreen.storyboard */; };
+		66FF10991C78F67100CB254C /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 66FF10961C78F67100CB254C /* board.png */; };
+		66FF109A1C78F67100CB254C /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 66FF10971C78F67100CB254C /* cross.png */; };
+		66FF109B1C78F67100CB254C /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 66FF10981C78F67100CB254C /* nought.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66FF10811C78F5BA00CB254C /* Noughts And Crosses.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noughts And Crosses.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FF10841C78F5BA00CB254C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66FF10861C78F5BA00CB254C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66FF10891C78F5BA00CB254C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66FF108B1C78F5BA00CB254C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66FF108E1C78F5BA00CB254C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66FF10901C78F5BA00CB254C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FF10961C78F67100CB254C /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		66FF10971C78F67100CB254C /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		66FF10981C78F67100CB254C /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66FF107E1C78F5BA00CB254C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66FF10781C78F5BA00CB254C = {
+			isa = PBXGroup;
+			children = (
+				66FF10831C78F5BA00CB254C /* Noughts And Crosses */,
+				66FF10821C78F5BA00CB254C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66FF10821C78F5BA00CB254C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66FF10811C78F5BA00CB254C /* Noughts And Crosses.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66FF10831C78F5BA00CB254C /* Noughts And Crosses */ = {
+			isa = PBXGroup;
+			children = (
+				66FF10961C78F67100CB254C /* board.png */,
+				66FF10971C78F67100CB254C /* cross.png */,
+				66FF10981C78F67100CB254C /* nought.png */,
+				66FF10841C78F5BA00CB254C /* AppDelegate.swift */,
+				66FF10861C78F5BA00CB254C /* ViewController.swift */,
+				66FF10881C78F5BA00CB254C /* Main.storyboard */,
+				66FF108B1C78F5BA00CB254C /* Assets.xcassets */,
+				66FF108D1C78F5BA00CB254C /* LaunchScreen.storyboard */,
+				66FF10901C78F5BA00CB254C /* Info.plist */,
+			);
+			path = "Noughts And Crosses";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66FF10801C78F5BA00CB254C /* Noughts And Crosses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FF10931C78F5BA00CB254C /* Build configuration list for PBXNativeTarget "Noughts And Crosses" */;
+			buildPhases = (
+				66FF107D1C78F5BA00CB254C /* Sources */,
+				66FF107E1C78F5BA00CB254C /* Frameworks */,
+				66FF107F1C78F5BA00CB254C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noughts And Crosses";
+			productName = "Noughts And Crosses";
+			productReference = 66FF10811C78F5BA00CB254C /* Noughts And Crosses.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66FF10791C78F5BA00CB254C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Chrishon Wyllie";
+				TargetAttributes = {
+					66FF10801C78F5BA00CB254C = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 66FF107C1C78F5BA00CB254C /* Build configuration list for PBXProject "Noughts And Crosses" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66FF10781C78F5BA00CB254C;
+			productRefGroup = 66FF10821C78F5BA00CB254C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66FF10801C78F5BA00CB254C /* Noughts And Crosses */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66FF107F1C78F5BA00CB254C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FF109A1C78F67100CB254C /* cross.png in Resources */,
+				66FF10991C78F67100CB254C /* board.png in Resources */,
+				66FF109B1C78F67100CB254C /* nought.png in Resources */,
+				66FF108F1C78F5BA00CB254C /* LaunchScreen.storyboard in Resources */,
+				66FF108C1C78F5BA00CB254C /* Assets.xcassets in Resources */,
+				66FF108A1C78F5BA00CB254C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66FF107D1C78F5BA00CB254C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FF10871C78F5BA00CB254C /* ViewController.swift in Sources */,
+				66FF10851C78F5BA00CB254C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		66FF10881C78F5BA00CB254C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66FF10891C78F5BA00CB254C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66FF108D1C78F5BA00CB254C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66FF108E1C78F5BA00CB254C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66FF10911C78F5BA00CB254C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66FF10921C78F5BA00CB254C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66FF10941C78F5BA00CB254C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Noughts And Crosses/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChrishonWyllie.Noughts-And-Crosses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66FF10951C78F5BA00CB254C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Noughts And Crosses/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChrishonWyllie.Noughts-And-Crosses";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66FF107C1C78F5BA00CB254C /* Build configuration list for PBXProject "Noughts And Crosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FF10911C78F5BA00CB254C /* Debug */,
+				66FF10921C78F5BA00CB254C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FF10931C78F5BA00CB254C /* Build configuration list for PBXNativeTarget "Noughts And Crosses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FF10941C78F5BA00CB254C /* Debug */,
+				66FF10951C78F5BA00CB254C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66FF10791C78F5BA00CB254C /* Project object */;
+}
